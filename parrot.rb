@@ -6,6 +6,6 @@ def parrot(*phrase)
     puts "Squawk!"
     return "Squawk!"
   else
-    puts @phrase
+    @phrase
   end
 end
