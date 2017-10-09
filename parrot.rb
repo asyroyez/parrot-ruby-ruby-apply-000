@@ -9,3 +9,12 @@ def parrot(*phrase)
     return phrase
   end
 end
+
+
+def parrot(*phrase)
+  puts phrase && return phrase 
+  unless phrase.length == 0
+    puts "Squawk!"
+    return "Squawk!"
+  end
+end
